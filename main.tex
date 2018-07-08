@@ -1,0 +1,33 @@
+\documentclass[11pt]{article}
+\usepackage{minted}
+
+\begin{document}
+
+
+\begin{tabular}{lp{0.2\textwidth}p{0.5\textwidth}}
+\textbf{keyword} & \textbf{demo} & \textbf{code}\\
+
+inline sum
+&
+\begin{minipage}[t]{0.2\textwidth}
+$\sum\limits_{i}$
+\end{minipage}
+&
+\begin{minipage}[t]{0.5\textwidth}
+\mint{latex}|$\sum\limits_{i}$|
+\end{minipage}
+\\
+
+argmax 
+& 
+\begin{minipage}[t]{0.2\textwidth}
+$\mathop{\arg\max}\limits_{\theta}$
+\end{minipage}
+&
+\begin{minipage}[t]{0.5\textwidth}
+\mint{latex}|$\mathop{\arg\max}_{\theta}$|
+\end{minipage}
+
+\end{tabular}
+
+\end{document}
